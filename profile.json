@@ -1,0 +1,274 @@
+{
+  "profile": {
+    "name": "Mukhammad Gufron Ikhsan",
+    "title": "Pranata Komputer Ahli Muda",
+    "nickname": "Cak Gup",
+    "organization": "Direktorat Sistem Informasi dan Teknologi Perbendaharaan, DJPb, Kementerian Keuangan",
+    "location": "Bekasi, Jawa Barat",
+    "email": "gufroni@kemenkeu.go.id",
+    "about_me": "Professional Computer Systems Analyst (Pranata Komputer) and Cybersecurity Specialist with a Master's degree from Universitas Indonesia, focusing on Information Security Management. Extensive experience in government IT infrastructure, incident response, penetration testing, and IT service management (ITSM) within the Ministry of Finance."
+  },
+  "education": [
+    {
+      "degree": "Master (S2) Teknik Elektro - Rekayasa dan Manajemen Keamanan Informasi",
+      "institution": "Universitas Indonesia",
+      "graduation_date": "2019-08-23"
+    },
+    {
+      "degree": "Sarjana (S1) Ekonomi - Akuntansi",
+      "institution": "STIE Muhammadiyah Jakarta",
+      "graduation_date": "2010-12-20"
+    },
+    {
+      "degree": "Diploma III (D-III) Kebendaharaan Negara",
+      "institution": "STAN",
+      "graduation_date": "2005-08-29"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Pranata Komputer Ahli Muda (Kel. I)",
+      "unit": "Subdirektorat Pengelolaan Data, Infrastruktur, dan Keamanan Informasi",
+      "period": "2024 - Present"
+    },
+    {
+      "role": "Pranata Komputer Ahli Muda",
+      "unit": "Subdirektorat Pengelolaan Infrastruktur",
+      "period": "2021 - 2022"
+    },
+    {
+      "role": "Pranata Komputer Pertama",
+      "unit": "Subdirektorat Pengelolaan Infrastruktur",
+      "period": "2020 - 2021"
+    }
+  ],
+  "taskforces_and_roles": {
+    "cybersecurity": [
+      "Petugas Keamanan Informasi Kantor Pusat DJPb (2025)",
+      "Anggota Organisasi Keamanan Informasi Kementerian Keuangan (2021 - 2025)",
+      "Tim Pengelola Risiko Direktorat SITP (2023)"
+    ],
+    "devops_and_software_engineering": [
+      "Wakil Koordinator Bidang CI/CD Tim Pengelolaan Aplikasi MyIntress (2026)",
+      "Koordinator Bidang Analisis Sistem Informasi Tim TaskForces Pengembangan Aplikasi MyIntress (2025)",
+      "Koordinator Bidang Analisis Sistem Informasi Tim TaskForces Pengembangan Integrasi OMSPAN Monitoring dan MONSAKTI (2024 - 2025)",
+      "Tim Penguji Pengembangan Digit Mobile Apps (2026)"
+    ],
+    "it_governance_and_architecture": [
+      "Tim Taskforce Penerapan ITSM mengacu pada SNI ISO/IEC 20000:2018 (2025)",
+      "Tim Koordinasi Sistem Pemerintahan Berbasis Elektronik (SPBE) Kementerian Keuangan (2023)",
+      "Tim Kebijakan Pengembangan Sistem Informasi DJPb (2024 - 2025)",
+      "Tim Kajian Cetak Biru (Blueprint) TIK DJPb 2024 - 2030 (2022)"
+    ]
+  },
+  "certifications_and_training": {
+    "cybersecurity_advanced": [
+      "Google Cybersecurity Professional Certificate (2025)",
+      "Sertifikasi Level 1 Security Operations Center (SOC) Analyst - BSSN (2025)",
+      "Pelatihan Incident Response Analyst - BSSN (2025)",
+      "Certified Ethical Hacker (CEH) - EC-Council (2022)",
+      "Certified Penetration Testing Professional - EC-Council (2021)",
+      "Pelatihan Junior Penetration Tester - BSSN (2024)",
+      "CyberOps Associate - Cisco & Kominfo (2024)"
+    ],
+    "infrastructure_and_cloud": [
+      "HPE Network Campus Access Associate (2024)",
+      "Architecting on AWS - Dicoding (2021)",
+      "Cloud Practitioner Essentials - Dicoding (2021)",
+      "Workshop Pengelolaan Keamanan Infrastruktur Jaringan - Itjen Kemenkeu (2019)"
+    ],
+    "it_governance_and_risk": [
+      "IT Service Management (ITSM) - Narada Code (2023)",
+      "Sistem Manajemen Keamanan Informasi SNI ISO/IEC 27001:2013 - Kominfo (2022)",
+      "Auditor Internal ISO/IEC 27001:2013 - Pusintek Kemenkeu (2022)",
+      "Bimtek Verifikasi Infrastruktur Informasi Vital Sektor Pemerintahan - BSSN (2025)",
+      "Bimbingan Teknis Indeks Keamanan Informasi (Indeks KAMI) - BSSN (2020)"
+    ],
+    "data_science_and_devops": [
+      "E-Learning Data Science for Leaders (2026)",
+      "Data Scientist & Data Analyst - Digital Talent Scholarship Kominfo (2022)",
+      "Dasar-Dasar DevOps - Dicoding (2022)",
+      "DevOps Praktis dengan IBM Cloud - Dicoding (2021)"
+    ]
+  },
+  "projects": {
+    "open_source": [
+      {
+        "id": "dashboard-masjid",
+        "title": "Dashboard Masjid",
+        "description": "Aplikasi dashboard manajemen masjid berbasis TypeScript — menampilkan jadwal sholat, pengumuman, keuangan masjid, dan informasi jamaah secara real-time.",
+        "language": "TypeScript",
+        "technologies": ["TypeScript", "Dashboard", "Web App"],
+        "year": "2026",
+        "url": "https://github.com/cakgup/dashboard-masjid",
+        "icon": "🕌"
+      },
+      {
+        "id": "wedding-invitation",
+        "title": "Wedding Invitation",
+        "description": "Aplikasi undangan pernikahan digital berbasis web — dilengkapi animasi elegan, countdown, RSVP online, galeri foto, dan fitur berbagi via WhatsApp/media sosial.",
+        "language": "JavaScript",
+        "technologies": ["JavaScript", "CSS Animation", "Responsive"],
+        "year": "2026",
+        "url": "https://github.com/cakgup/wedding-invitation",
+        "icon": "💍"
+      },
+      {
+        "id": "invitation",
+        "title": "Digital Invitation",
+        "description": "Template undangan digital serbaguna berbasis web — dapat digunakan untuk berbagai acara: pernikahan, khitanan, pengajian, dan reuni. Design modern dan responsif.",
+        "language": "HTML/CSS",
+        "technologies": ["CSS", "HTML", "Template"],
+        "year": "2026",
+        "url": "https://github.com/cakgup/invitation",
+        "icon": "📧"
+      },
+      {
+        "id": "bani-raukhan-rafi",
+        "title": "Bani Raukhan-Rafi",
+        "description": "Aplikasi web silsilah keluarga Bani Raukhan-Rafi — menampilkan pohon keluarga interaktif berbasis JavaScript dengan navigasi generasi dan detail anggota keluarga.",
+        "language": "JavaScript",
+        "technologies": ["JavaScript", "Family Tree", "Interactive"],
+        "year": "2026",
+        "url": "https://github.com/cakgup/bani-raukhan-rafi",
+        "icon": "🌳"
+      },
+      {
+        "id": "portfolio",
+        "title": "Portfolio Website",
+        "description": "Website portfolio profesional pribadi — dibangun dengan HTML, CSS, dan JavaScript vanilla. Menampilkan pengalaman, sertifikasi, task force, dan aktivitas secara terstruktur.",
+        "language": "HTML/CSS/JavaScript",
+        "technologies": ["HTML/CSS", "JavaScript", "GitHub Pages"],
+        "year": "2022 – Kini",
+        "url": "https://github.com/cakgup/cakgup.github.io",
+        "icon": "🌐"
+      }
+    ],
+    "government_projects": [
+      {
+        "id": "myintress",
+        "title": "MyIntress Application",
+        "description": "Aplikasi manajemen internal DJPb — Wakil Koordinator CI/CD & Koordinator Analisis Sistem Informasi. Mengelola pipeline DevOps, integrasi sistem, dan kualitas kode.",
+        "role": "Wakil Koordinator CI/CD & Koordinator Analisis Sistem Informasi",
+        "technologies": ["CI/CD", "DevOps", "System Analysis"],
+        "period": "2025 – 2026",
+        "organization": "DJPb, Kementerian Keuangan",
+        "icon": "📊",
+        "gradient": "linear-gradient(135deg,#0052CC,#00B4D8)"
+      },
+      {
+        "id": "omspan-monsakti",
+        "title": "Integrasi OMSPAN Monitoring & MONSAKTI",
+        "description": "Koordinator Analisis Sistem Informasi untuk integrasi dua sistem monitoring keuangan pemerintah pusat — OMSPAN dan MONSAKTI — dalam ekosistem DJPb.",
+        "role": "Koordinator Analisis Sistem Informasi",
+        "technologies": ["System Integration", "API", "Monitoring"],
+        "period": "2024 – 2025",
+        "organization": "DJPb, Kementerian Keuangan",
+        "icon": "🔗",
+        "gradient": "linear-gradient(135deg,#7C3AED,#0052CC)"
+      },
+      {
+        "id": "digit-mobile",
+        "title": "Digit Mobile Apps",
+        "description": "Tim Penguji pengembangan aplikasi mobile Digit — aplikasi layanan digital DJPb untuk para pengguna layanan perbendaharaan negara berbasis smartphone.",
+        "role": "Tim Penguji / QA Tester",
+        "technologies": ["Mobile App", "QA Testing", "UAT"],
+        "period": "2026",
+        "organization": "DJPb, Kementerian Keuangan",
+        "icon": "📱",
+        "gradient": "linear-gradient(135deg,#00B4D8,#7C3AED)"
+      },
+      {
+        "id": "blueprint-tik",
+        "title": "Blueprint TIK DJPb 2024–2030",
+        "description": "Tim Kajian Cetak Biru (Blueprint) Teknologi Informasi dan Komunikasi DJPb 2024-2030 — merancang arsitektur IT jangka panjang untuk transformasi digital perbendaharaan negara.",
+        "role": "Tim Kajian",
+        "technologies": ["IT Architecture", "Strategic Planning", "Digital Transformation"],
+        "period": "2022",
+        "organization": "DJPb, Kementerian Keuangan",
+        "icon": "🏗️",
+        "gradient": "linear-gradient(135deg,#0052CC,#003A99)"
+      },
+      {
+        "id": "itsm",
+        "title": "ITSM — SNI ISO/IEC 20000:2018",
+        "description": "Tim Taskforce Penerapan IT Service Management (ITSM) mengacu pada standar SNI ISO/IEC 20000:2018 di lingkungan Direktorat SITP, DJPb.",
+        "role": "Tim Taskforce",
+        "technologies": ["ITSM", "ISO 20000", "IT Governance"],
+        "period": "2025",
+        "organization": "Direktorat SITP, DJPb",
+        "icon": "🛡️",
+        "gradient": "linear-gradient(135deg,#e11d48,#0052CC)"
+      },
+      {
+        "id": "spbe",
+        "title": "SPBE Kemenkeu",
+        "description": "Tim Koordinasi Sistem Pemerintahan Berbasis Elektronik (SPBE) Kementerian Keuangan — mendorong implementasi e-government yang terintegrasi dan aman di seluruh unit Kemenkeu.",
+        "role": "Tim Koordinasi",
+        "technologies": ["e-Government", "SPBE", "Coordination"],
+        "period": "2023",
+        "organization": "Kementerian Keuangan",
+        "icon": "⚙️",
+        "gradient": "linear-gradient(135deg,#059669,#0052CC)"
+      }
+    ]
+  },
+  "skills": {
+    "core": [
+      "Cybersecurity",
+      "Penetration Testing",
+      "IT Security Management",
+      "Incident Response",
+      "IT Governance (ITSM)",
+      "ISO 27001",
+      "Cloud Architecture",
+      "DevOps & CI/CD",
+      "Data Science",
+      "System Analysis",
+      "Risk Management"
+    ],
+    "personal": [
+      "Graphic Design",
+      "Mountaineering",
+      "Wing Chun",
+      "Community Building"
+    ]
+  },
+  "community_activities": [
+    {
+      "id": "baghasasi",
+      "name": "Yayasan Baghasasi",
+      "description": "Yayasan BAGHASASI — akronim dari BAKTI, GUNA, HARAPAN BANGSA, dan SINERGI — adalah yayasan sosial yang bergerak di bidang dakwah, pendidikan, dan pemberdayaan masyarakat di Kota Bekasi.",
+      "category": "Sosial & Keagamaan",
+      "icon": "🕌"
+    },
+    {
+      "id": "relindo",
+      "name": "Relawan Indonesia",
+      "description": "Relawan Indonesia aktif terlibat dalam berbagai operasi tanggap bencana di seluruh Indonesia — memberikan bantuan kemanusiaan, logistik, dan dukungan psikologis kepada korban bencana alam.",
+      "category": "Kerelawanan",
+      "icon": "🤝"
+    },
+    {
+      "id": "img-adventure",
+      "name": "IMG Adventure",
+      "description": "Indonesia Maju Gemilang Adventure — komunitas petualang dengan tagline Fit Body, Fit Mind, Fit Soul & Fit Organization. Aktif dalam kegiatan pendakian gunung, arung jeram, dan olahraga air.",
+      "category": "Petualangan & Olahraga",
+      "icon": "🏔️"
+    }
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/cakgup/",
+    "github": "https://github.com/cakgup",
+    "whatsapp": "https://wa.me/6285717119171",
+    "youtube": "https://www.youtube.com/@AlfafaID",
+    "instagram": "https://instagram.com/alamanahkeu",
+    "portfolio": "https://cakgup.github.io"
+  },
+  "statistics": {
+    "years_of_experience": 20,
+    "certifications": 25,
+    "task_forces": 10,
+    "education_level": "S2 (Master - Information Security)"
+  }
+}
