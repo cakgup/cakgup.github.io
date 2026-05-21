@@ -1,0 +1,87 @@
+```text
+====================================================================
+RESUME OF BIODATA, TRAINING, AND EXPERIENCE (IT & SECURITY DOMAIN)
+====================================================================
+
+I. PERSONAL BIODATA & PROFILE
+--------------------------------------------------------------------
+* Full Name          : Mukhammad Gufron Ikhsan
+* Current Position   : Junior Computer Systems Analyst / 
+                       Pranata Komputer Ahli Muda
+* Organizational Unit: Subdirectorate of Data Management, Infrastructure, 
+                       and Information Security, Directorate of Treasury 
+                       Information Systems and Technology, Directorate 
+                       General of Treasury, Ministry of Finance
+* Postgraduate Edu.  : Master of Engineering in Electrical Engineering 
+                       (Information Security Engineering and Management), 
+                       Universitas Indonesia
+
+
+II. PROFESSIONAL TRAINING & TECHNICAL CERTIFICATIONS (IT & SECURITY)
+--------------------------------------------------------------------
+
+A. Advanced Cybersecurity & International Certifications
+* Google Cybersecurity Professional Certificate (GCC X Kemenkeu, 2025)
+* Level 1 Security Operations Center Analyst Training and Certification, Batch 8 (National Cyber and Crypto Agency / BSSN, 2025)
+* Incident Response Analyst Training, Batch 1 (National Cyber and Crypto Agency / BSSN, 2025)
+* Certified Ethical Hacker (CEH) (EC-Council, 2022)
+* Certified Penetration Testing Professional (EC-Council, 2021)
+* CyberOps Associate Professional Academy - Digital Talent Scholarship 2024 (Ministry of Communication and Informatics, 2024)
+* CyberOps Associate (Cisco Networking Academy, 2024)
+* Junior Penetration Tester Training, Package II (Human Resources Development Center - BSSN, 2024)
+* Born to Defense Training (National Cyber and Crypto Agency / BSSN, 2022)
+* Penetration Testing Course (Inspectorate General of the Ministry of Finance, 2021)
+* E-Learning Information Security Awareness, Batch XXI (Center for Education and Training of Public Finance, 2020)
+
+B. IT Governance, Audit, Risk & Security Standardization
+* Technical Guidance for Verification of Vital Information Infrastructure in the Government Administration Sector (BSSN, 2025)
+* IT Service Management (ITSM) (Narada Code, 2023)
+* SNI ISO/IEC 27001:2013 Information Security Management System - GTA Digitalent (Ministry of Communication and Informatics, 2022)
+* In-House Training for ISO/IEC 27001:2013 Internal Auditors (Center for Financial Information Systems and Technology / Pusintek Kemenkeu, 2022)
+* Technical Guidance for Information Security Index / Indeks KAMI (National Cyber and Crypto Agency / BSSN, 2020)
+* Information Systems Security Training (Center for Education and Training of Public Finance, 2024)
+* Remote Training: IT Risk Practitioner Guide (Center for Education and Training of Public Finance, 2021)
+* Remote Training: IT Governance (Center for Education and Training of Public Finance, 2022)
+* E-Learning Business Continuity Management (BCM), Batch II (Center for Education and Training of Public Finance, 2023)
+* Electronic-Based Government System (SPBE) Security Awareness Education - GTA Digitalent Scholarship (Ministry of Communication and Informatics, 2024)
+
+C. Network Infrastructure & Cloud Computing
+* HPE Network Campus Access Associate (Aruba Campus Access Training, 2024)
+* Architecting on AWS / Building Cloud Architecture on AWS (Dicoding, 2021)
+* Cloud Practitioner Essentials / Learning AWS Cloud Basics (Dicoding, 2021)
+* Network Infrastructure Security Management Workshop (Inspectorate General of the Ministry of Finance, 2019)
+* Computer Network Administration Training, Batch I (Ministry of Finance, 2016)
+
+D. Data Science, AI, & Programming / DevOps
+* E-Learning Data Science for Leaders (Center for Education and Training of Public Finance, 2026)
+* Open Class: Utilizing Data Analytics and Generative AI in Ministry of Finance Business Processes (Center for Education and Training of Public Finance, 2024)
+* Data Scientist - Digital Talent Scholarship Kominfo (Ministry of Communication and Informatics, 2022)
+* Data Analyst - Digital Talent Scholarship Kominfo (Ministry of Communication and Informatics, 2022)
+* Fundamentals of DevOps (Dicoding, 2022)
+* Practical DevOps with IBM Cloud (Dicoding, 2021)
+* JavaScript, Python, and Web Development Fundamentals (Dicoding, 2021-2022)
+* Remote Training: Data Warehouse (Center for Education and Training of Public Finance, 2021)
+
+
+III. ADDITIONAL ASSIGNMENTS & TASKFORCE EXPERIENCE (IT & SECURITY)
+--------------------------------------------------------------------
+
+A. Cybersecurity Specific Roles
+* Information Security Officer within the Central Office of the Directorate General of Treasury (2025)
+* Member of the Ministry of Finance Information Security Organization (Multi-year: 2021-2022, 2022-2023, 2023-2024, and 2024-2025)
+* Member of the Risk Management Team within the Directorate of Treasury Information Systems and Technology (2023)
+
+B. Application Development, Systems Integration & DevOps
+* Vice Coordinator of CI/CD (Continuous Integration and Continuous Delivery/Deployment) for the MyIntress Application Management Team (2026)
+* Information Systems Analysis Coordinator for the MyIntress Application Development Taskforce (2025)
+* Information Systems Analysis Coordinator for the OMSPAN Monitoring and MONSAKTI Integration Development Taskforce (2024-2025)
+* Quality Assurance (QA) / Testing Team Member for Digit Mobile Apps Development (2026)
+* Web Administrator for the Directorate General of Treasury Website Management Team (2025)
+
+C. SPBE Architecture & Strategic IT Governance
+* Member of the Taskforce for the Implementation of IT Service Management (ITSM) aligned with SNI ISO/IEC 20000:2018 (2025)
+* Member of the Electronic-Based Government System (SPBE) Coordination Team, Ministry of Finance (Since 2023)
+* Member of the Information Systems Development Policy Team, Directorate General of Treasury (2024-2025)
+* Member of the IT and Communications Blueprint Study Team, Directorate General of Treasury Year 2024 - 2030 (2022)
+* Member of the Credit Score Assessment Team for Computer Systems Analyst Functional Positions, Ministry of Finance (2022 - 2023)
+====================================================================
