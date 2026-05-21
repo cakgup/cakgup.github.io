@@ -19,6 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- ✅ FIX 1: Typed.js untuk animasi teks hero -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <!-- ======= HEADER ======= -->
@@ -44,6 +46,13 @@
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#experience" class="header__link">Experience</a>
+            </li>
+            <!-- ✅ FIX 2: Tambah Education & Certifications ke navigasi -->
+            <li class="header__link-wrapper">
+              <a href="./index.html#education" class="header__link">Education</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#certifications" class="header__link">Certifications</a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#it-projects" class="header__link">IT Projects</a>
@@ -75,6 +84,9 @@
             <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
             <li class="header__sm-menu-link"><a href="./index.html#about">About</a></li>
             <li class="header__sm-menu-link"><a href="./index.html#experience">Experience</a></li>
+            <!-- ✅ FIX 2: Tambah ke mobile menu juga -->
+            <li class="header__sm-menu-link"><a href="./index.html#education">Education</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#certifications">Certifications</a></li>
             <li class="header__sm-menu-link"><a href="./index.html#it-projects">IT Projects</a></li>
             <li class="header__sm-menu-link"><a href="./index.html#projects">Activities</a></li>
             <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
@@ -672,14 +684,19 @@
     </section>
 
     <!-- ======= CONTACT ======= -->
+    <!-- ✅ FIX 3: Perbaikan struktur Contact section — tambah main-container dan h2 yang hilang -->
     <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
             Punya pertanyaan, kolaborasi, atau sekadar ingin berkenalan? Saya terbuka untuk berbagai kesempatan profesional maupun sosial.
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="https://formspree.io/f/gufroni@kemenkeu.go.id" method="POST" class="contact__form" id="contact-form">
+          <!-- ✅ FIX 4: Ganti action Formspree dengan form ID yang benar -->
+          <!-- PENTING: Daftar di formspree.io, buat form baru, lalu ganti FORM_ID_ANDA di bawah -->
+          <form action="https://formspree.io/f/FORM_ID_ANDA" method="POST" class="contact__form" id="contact-form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Nama</label>
               <input
