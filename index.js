@@ -77,7 +77,9 @@ revealElements.forEach((el) => revealObserver.observe(el))
 
 // ======= HEADER SCROLL EFFECT =======
 window.addEventListener('scroll', () => {
-  const header = document.getElementById('header')
+  const header = document.querySelector('.header')
+  if (!header) return
+
   if (window.scrollY > 80) {
     header.classList.add('header--scrolled')
   } else {
