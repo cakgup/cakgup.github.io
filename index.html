@@ -4,46 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>.: Cak Gup :.</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+    <title>Mukhammad Gufron Ikhsan | IT Specialist & Cybersecurity Expert</title>
+    <meta name="description" content="Portfolio of Mukhammad Gufron Ikhsan — Pranata Komputer Ahli Muda, Cybersecurity Specialist & IT Governance Expert at Direktorat Sistem Informasi dan Teknologi Perbendaharaan, Kementerian Keuangan." />
+    <meta name="author" content="Mukhammad Gufron Ikhsan" />
+    <meta property="og:title" content="Mukhammad Gufron Ikhsan | IT Specialist & Cybersecurity Expert" />
+    <meta property="og:description" content="Pranata Komputer Ahli Muda, cybersecurity specialist, penetration tester, and IT governance expert at Kementerian Keuangan." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cakgup.github.io" />
 
     <link rel="stylesheet" href="css/style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header class="header">
+    <!-- ======= HEADER ======= -->
+    <header class="header" id="header">
       <div class="header__content">
-        <div class="header__logo-container">
+        <a href="./index.html" class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
               src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              alt="Mukhammad Gufron Ikhsan"
               class="header__logo-img"
             />
           </div>
           <span class="header__logo-sub">.: Cak Gup :.</span>
-        </div>
+        </a>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html" class="header__link">Home</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link">About</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#experience" class="header__link">Experience</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#it-projects" class="header__link">IT Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">Activities</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link">Contact</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -63,84 +72,55 @@
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
+            <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#about">About</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#experience">Experience</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#it-projects">IT Projects</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#projects">Activities</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="home-hero">
+
+    <!-- ======= HERO ======= -->
+    <section class="home-hero" id="home">
       <div class="home-hero__content">
-        <h1 class="heading-primary">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
+        <span class="home-hero__greeting">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</span>
+        <h1 class="heading-primary" id="typed-heading">Mukhammad Gufron Ikhsan</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Hello, you can call me Cak Gup, i am IT Specialist at Directorate of Information Systems and Technology Treasury, DG Treasury, Ministry of Finance.
+            <span id="typed-role"></span>
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+          <a href="./#projects" class="btn btn--bg" id="hero-cta-btn">Lihat Projects</a>
         </div>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/cakgup/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="https://www.linkedin.com/in/cakgup/" class="home-hero__social-icon-link" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <img src="./assets/png/linkedin-ico.png" alt="LinkedIn" class="home-hero__social-icon" />
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://cakgup.github.io/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="https://cakgup.github.io/" class="home-hero__social-icon-link" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <img src="./assets/png/github-ico.png" alt="GitHub" class="home-hero__social-icon" />
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://wa.me/6285717119171" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/wa-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="https://wa.me/6285717119171" class="home-hero__social-icon-link" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+            <img src="./assets/png/wa-ico.png" alt="WhatsApp" class="home-hero__social-icon" />
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="https://www.youtube.com/@AlfafaID" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="https://www.youtube.com/@AlfafaID" class="home-hero__social-icon-link" target="_blank" rel="noreferrer" aria-label="YouTube">
+            <img src="./assets/png/yt-ico.png" alt="YouTube" class="home-hero__social-icon" />
           </a>
         </div>
         <div class="home-hero__social">
-          <a
-            href="https://instagram.com/alamanahkeu"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="https://instagram.com/alamanahkeu" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <img src="./assets/png/insta-ico.png" alt="Instagram" class="home-hero__social-icon" />
           </a>
         </div>
       </div>
@@ -148,142 +128,555 @@
         <div class="mouse"></div>
       </div>
     </section>
+
+    <!-- ======= STATS BAR ======= -->
+    <section class="stats-bar">
+      <div class="main-container">
+        <div class="stats-bar__inner">
+          <div class="stat-item reveal">
+            <span class="stat-item__number">20+</span>
+            <span class="stat-item__label">Tahun Pengalaman</span>
+          </div>
+          <div class="stat-item reveal reveal-delay-1">
+            <span class="stat-item__number">25+</span>
+            <span class="stat-item__label">Sertifikasi & Pelatihan</span>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <span class="stat-item__number">10+</span>
+            <span class="stat-item__label">Task Force Nasional</span>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <span class="stat-item__number">S2</span>
+            <span class="stat-item__label">Keamanan Informasi UI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            a hard worker with skills: accounting and finance, IT support, graphic design, mountaineering, water sport, wingchun martial art, therapist of backbone (totok punggung), member of Yayasan Totok Punggung Indonesia, therapist of hijamah (bekam) and musical instrument player.
-			Interested in challenge and encountering new things. Open for professional relationship: mountaineering, social activities, volunteering, etc.
+            IT Professional, Cybersecurity Specialist & Community Builder — berkomitmen pada keamanan informasi nasional dan pengembangan masyarakat
           </span>
         </h2>
         <div class="about__content">
-          <div class="about__content-main">
+          <div class="about__content-main reveal">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>.: Cak Gup :.</strong>
-                and I'm a <strong> IT Specialist </strong> at Directorate of Information Systems and Technology Treasury, DG Treasury, Ministry of Finance.
-                              </p>
+                Saya adalah <strong>Mukhammad Gufron Ikhsan</strong>, seorang <strong>Pranata Komputer Ahli Muda</strong> di Subdirektorat Pengelolaan Data, Infrastruktur, dan Keamanan Informasi, Direktorat Sistem Informasi dan Teknologi Perbendaharaan (SITP), Ditjen Perbendaharaan, Kementerian Keuangan.
+              </p>
               <p class="about__content-details-para">
-                I currently serve as a <strong> Pranata Komputer Ahli Muda </strong> in the Sub-directorate of Data Management, Infrastructure and Information Security. Feel free to
-                <strong>contact</strong> me here.
+                Saya merupakan spesialis <strong>Keamanan Siber</strong> dengan gelar Magister dari Universitas Indonesia bidang Rekayasa dan Manajemen Keamanan Informasi. Aktif di berbagai tim taskforce nasional mulai dari ITSM, SPBE, incident response, hingga pengembangan aplikasi pemerintah.
+              </p>
+              <p class="about__content-details-para">
+                Di luar tugas formal, saya aktif berkontribusi pada kegiatan sosial, mountaineering, water sport, seni bela diri Wing Chun, terapi totok punggung, dan kegiatan relawan. Feel free to <strong>contact</strong> me!
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
+            <a href="./#contact" class="btn btn--med btn--theme" id="about-contact-btn">Contact Me</a>
           </div>
-          <div class="about__content-skills">
+          <div class="about__content-skills reveal reveal-delay-2">
             <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">IT Security</div>
+            <div class="skills" id="skills-container">
+              <div class="skills__skill">Cybersecurity</div>
+              <div class="skills__skill">Penetration Testing</div>
+              <div class="skills__skill">IT Security Management</div>
+              <div class="skills__skill">Incident Response</div>
+              <div class="skills__skill">IT Governance (ITSM)</div>
+              <div class="skills__skill">ISO 27001</div>
+              <div class="skills__skill">Cloud Architecture</div>
+              <div class="skills__skill">DevOps & CI/CD</div>
+              <div class="skills__skill">Data Science</div>
+              <div class="skills__skill">System Analysis</div>
+              <div class="skills__skill">Risk Management</div>
+              <div class="skills__skill">Graphic Design</div>
               <div class="skills__skill">Mountaineering</div>
-              <div class="skills__skill">Wingchun</div>
-              <div class="skills__skill">Swimming</div>
-              <div class="skills__skill">Backbone Therapist</div>
-              <div class="skills__skill">Musical Player</div>
-			        <div class="skills__skill">Graphic Design</div>
+              <div class="skills__skill">Wing Chun</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="projects" class="projects sec-pad">
+
+    <!-- ======= EXPERIENCE ======= -->
+    <section id="experience" class="experience sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Experience</span>
+          <span class="heading-sec__sub">
+            Perjalanan karir sebagai Pranata Komputer di Kementerian Keuangan RI
+          </span>
+        </h2>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-item__period">2024 – Present</div>
+            <div class="timeline-item__role">Pranata Komputer Ahli Muda (Kel. I)</div>
+            <div class="timeline-item__unit">Subdirektorat Pengelolaan Data, Infrastruktur, dan Keamanan Informasi — Direktorat SITP, DJPb, Kemenkeu</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__period">2021 – 2022</div>
+            <div class="timeline-item__role">Pranata Komputer Ahli Muda</div>
+            <div class="timeline-item__unit">Subdirektorat Pengelolaan Infrastruktur — Direktorat SITP, DJPb, Kemenkeu</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__period">2020 – 2021</div>
+            <div class="timeline-item__role">Pranata Komputer Pertama</div>
+            <div class="timeline-item__unit">Subdirektorat Pengelolaan Infrastruktur — Direktorat SITP, DJPb, Kemenkeu</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= EDUCATION ======= -->
+    <section id="education" class="education sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Education</span>
+          <span class="heading-sec__sub">
+            Latar belakang akademik di bidang teknologi informasi, keamanan informasi, dan ekonomi
+          </span>
+        </h2>
+        <div class="education__grid">
+          <div class="edu-card reveal">
+            <div class="edu-card__level">S2 – Master</div>
+            <div class="edu-card__degree">Teknik Elektro — Rekayasa dan Manajemen Keamanan Informasi</div>
+            <div class="edu-card__institution">Universitas Indonesia</div>
+            <div class="edu-card__year">Lulus: Agustus 2019</div>
+          </div>
+          <div class="edu-card reveal reveal-delay-1">
+            <div class="edu-card__level">S1 – Sarjana</div>
+            <div class="edu-card__degree">Ekonomi — Akuntansi</div>
+            <div class="edu-card__institution">STIE Muhammadiyah Jakarta</div>
+            <div class="edu-card__year">Lulus: Desember 2010</div>
+          </div>
+          <div class="edu-card reveal reveal-delay-2">
+            <div class="edu-card__level">D-III – Diploma</div>
+            <div class="edu-card__degree">Kebendaharaan Negara</div>
+            <div class="edu-card__institution">STAN (Sekolah Tinggi Akuntansi Negara)</div>
+            <div class="edu-card__year">Lulus: Agustus 2005</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CERTIFICATIONS ======= -->
+    <section id="certifications" class="certifications sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Certifications</span>
+          <span class="heading-sec__sub">
+            Sertifikasi dan pelatihan profesional di bidang keamanan siber, infrastruktur, tata kelola IT, dan data science
+          </span>
+        </h2>
+        <div class="cert-categories">
+          <div class="cert-category reveal">
+            <div class="cert-category__title">
+              🛡️ Cybersecurity Advanced
+              <span class="cert-badge">7 Sertifikat</span>
+            </div>
+            <div class="cert-list">
+              <div class="cert-item"><span class="cert-item__text">Google Cybersecurity Professional Certificate (2025)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Sertifikasi Level 1 SOC Analyst — BSSN (2025)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Pelatihan Incident Response Analyst — BSSN (2025)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Certified Ethical Hacker (CEH) — EC-Council (2022)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Certified Penetration Testing Professional — EC-Council (2021)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Pelatihan Junior Penetration Tester — BSSN (2024)</span></div>
+              <div class="cert-item"><span class="cert-item__text">CyberOps Associate — Cisco & Kominfo (2024)</span></div>
+            </div>
+          </div>
+          <div class="cert-category reveal reveal-delay-1">
+            <div class="cert-category__title">
+              ☁️ Infrastructure & Cloud
+              <span class="cert-badge">4 Sertifikat</span>
+            </div>
+            <div class="cert-list">
+              <div class="cert-item"><span class="cert-item__text">HPE Network Campus Access Associate (2024)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Architecting on AWS — Dicoding (2021)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Cloud Practitioner Essentials — Dicoding (2021)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Workshop Keamanan Infrastruktur Jaringan — Itjen Kemenkeu (2019)</span></div>
+            </div>
+          </div>
+          <div class="cert-category reveal reveal-delay-2">
+            <div class="cert-category__title">
+              📋 IT Governance & Risk
+              <span class="cert-badge">5 Sertifikat</span>
+            </div>
+            <div class="cert-list">
+              <div class="cert-item"><span class="cert-item__text">IT Service Management (ITSM) — Narada Code (2023)</span></div>
+              <div class="cert-item"><span class="cert-item__text">SMKI SNI ISO/IEC 27001:2013 — Kominfo (2022)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Auditor Internal ISO/IEC 27001:2013 — Pusintek Kemenkeu (2022)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Bimtek Infrastruktur Informasi Vital — BSSN (2025)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Bimtek Indeks Keamanan Informasi (KAMI) — BSSN (2020)</span></div>
+            </div>
+          </div>
+          <div class="cert-category reveal reveal-delay-3">
+            <div class="cert-category__title">
+              📊 Data Science & DevOps
+              <span class="cert-badge">4 Sertifikat</span>
+            </div>
+            <div class="cert-list">
+              <div class="cert-item"><span class="cert-item__text">E-Learning Data Science for Leaders (2026)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Data Scientist & Data Analyst — Digital Talent Scholarship Kominfo (2022)</span></div>
+              <div class="cert-item"><span class="cert-item__text">Dasar-Dasar DevOps — Dicoding (2022)</span></div>
+              <div class="cert-item"><span class="cert-item__text">DevOps Praktis dengan IBM Cloud — Dicoding (2021)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= TASK FORCE ======= -->
+    <section id="taskforce" class="taskforce sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Task Forces & Roles</span>
+          <span class="heading-sec__sub">
+            Kontribusi aktif dalam berbagai tim strategis pemerintah di bidang keamanan siber, IT governance, dan pengembangan aplikasi
+          </span>
+        </h2>
+        <div class="taskforce__grid">
+          <div class="taskforce-card reveal">
+            <span class="taskforce-card__icon">🔐</span>
+            <div class="taskforce-card__title">Keamanan Siber</div>
+            <div class="taskforce-card__list">
+              <div class="taskforce-card__item">Petugas Keamanan Informasi Kantor Pusat DJPb (2025)</div>
+              <div class="taskforce-card__item">Anggota Organisasi Keamanan Informasi Kementerian Keuangan (2021–2025)</div>
+              <div class="taskforce-card__item">Tim Pengelola Risiko Direktorat SITP (2023)</div>
+            </div>
+          </div>
+          <div class="taskforce-card reveal reveal-delay-1">
+            <span class="taskforce-card__icon">⚙️</span>
+            <div class="taskforce-card__title">DevOps & Software Engineering</div>
+            <div class="taskforce-card__list">
+              <div class="taskforce-card__item">Wakil Koordinator Bidang CI/CD — MyIntress (2026)</div>
+              <div class="taskforce-card__item">Koordinator Analisis Sistem Informasi — MyIntress (2025)</div>
+              <div class="taskforce-card__item">Koordinator Integrasi OMSPAN Monitoring & MONSAKTI (2024–2025)</div>
+              <div class="taskforce-card__item">Tim Penguji Pengembangan Digit Mobile Apps (2026)</div>
+            </div>
+          </div>
+          <div class="taskforce-card reveal reveal-delay-2">
+            <span class="taskforce-card__icon">🏛️</span>
+            <div class="taskforce-card__title">IT Governance & Architecture</div>
+            <div class="taskforce-card__list">
+              <div class="taskforce-card__item">Tim Taskforce ITSM (SNI ISO/IEC 20000:2018) (2025)</div>
+              <div class="taskforce-card__item">Tim Koordinasi SPBE Kementerian Keuangan (2023)</div>
+              <div class="taskforce-card__item">Tim Kebijakan Pengembangan SI DJPb (2024–2025)</div>
+              <div class="taskforce-card__item">Tim Kajian Blueprint TIK DJPb 2024–2030 (2022)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= IT PROJECTS ======= -->
+    <section id="it-projects" class="it-projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__main">IT Projects</span>
           <span class="heading-sec__sub">
-            On the sidelines of my busy life as a civil servant, I have activities outside the office
+            Proyek-proyek IT yang telah dikembangkan — mulai dari aplikasi web, dashboard, sistem informasi, hingga pengembangan di lingkungan pemerintahan
           </span>
         </h2>
 
+        <!-- GitHub Open Source Projects -->
+        <div class="it-projects__category-label reveal">🐙 Open Source — GitHub</div>
+        <div class="it-projects__grid">
+
+          <div class="it-project-card reveal">
+            <div class="it-project-card__header">
+              <span class="it-project-card__icon">🕌</span>
+              <div class="it-project-card__meta">
+                <span class="it-project-card__lang lang--ts">TypeScript</span>
+                <span class="it-project-card__year">2026</span>
+              </div>
+            </div>
+            <h3 class="it-project-card__title">Dashboard Masjid</h3>
+            <p class="it-project-card__desc">
+              Aplikasi dashboard manajemen masjid berbasis TypeScript — menampilkan jadwal sholat, pengumuman, keuangan masjid, dan informasi jamaah secara real-time.
+            </p>
+            <div class="it-project-card__tags">
+              <span class="it-project-card__tag">TypeScript</span>
+              <span class="it-project-card__tag">Dashboard</span>
+              <span class="it-project-card__tag">Web App</span>
+            </div>
+            <a href="https://github.com/cakgup/dashboard-masjid" class="it-project-card__link" target="_blank" rel="noreferrer" id="gh-dashboard-masjid">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="it-project-card reveal reveal-delay-1">
+            <div class="it-project-card__header">
+              <span class="it-project-card__icon">💍</span>
+              <div class="it-project-card__meta">
+                <span class="it-project-card__lang lang--js">JavaScript</span>
+                <span class="it-project-card__year">2026</span>
+              </div>
+            </div>
+            <h3 class="it-project-card__title">Wedding Invitation</h3>
+            <p class="it-project-card__desc">
+              Aplikasi undangan pernikahan digital berbasis web — dilengkapi animasi elegan, countdown, RSVP online, galeri foto, dan fitur berbagi via WhatsApp/media sosial.
+            </p>
+            <div class="it-project-card__tags">
+              <span class="it-project-card__tag">JavaScript</span>
+              <span class="it-project-card__tag">CSS Animation</span>
+              <span class="it-project-card__tag">Responsive</span>
+            </div>
+            <a href="https://github.com/cakgup/wedding-invitation" class="it-project-card__link" target="_blank" rel="noreferrer" id="gh-wedding-invitation">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="it-project-card reveal reveal-delay-2">
+            <div class="it-project-card__header">
+              <span class="it-project-card__icon">📧</span>
+              <div class="it-project-card__meta">
+                <span class="it-project-card__lang lang--css">CSS / HTML</span>
+                <span class="it-project-card__year">2026</span>
+              </div>
+            </div>
+            <h3 class="it-project-card__title">Digital Invitation</h3>
+            <p class="it-project-card__desc">
+              Template undangan digital serbaguna berbasis web — dapat digunakan untuk berbagai acara: pernikahan, khitanan, pengajian, dan reuni. Design modern dan responsif.
+            </p>
+            <div class="it-project-card__tags">
+              <span class="it-project-card__tag">CSS</span>
+              <span class="it-project-card__tag">HTML</span>
+              <span class="it-project-card__tag">Template</span>
+            </div>
+            <a href="https://github.com/cakgup/invitation" class="it-project-card__link" target="_blank" rel="noreferrer" id="gh-invitation">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="it-project-card reveal reveal-delay-3">
+            <div class="it-project-card__header">
+              <span class="it-project-card__icon">🌳</span>
+              <div class="it-project-card__meta">
+                <span class="it-project-card__lang lang--js">JavaScript</span>
+                <span class="it-project-card__year">2026</span>
+              </div>
+            </div>
+            <h3 class="it-project-card__title">Bani Raukhan-Rafi</h3>
+            <p class="it-project-card__desc">
+              Aplikasi web silsilah keluarga Bani Raukhan-Rafi — menampilkan pohon keluarga interaktif berbasis JavaScript dengan navigasi generasi dan detail anggota keluarga.
+            </p>
+            <div class="it-project-card__tags">
+              <span class="it-project-card__tag">JavaScript</span>
+              <span class="it-project-card__tag">Family Tree</span>
+              <span class="it-project-card__tag">Interactive</span>
+            </div>
+            <a href="https://github.com/cakgup/bani-raukhan-rafi" class="it-project-card__link" target="_blank" rel="noreferrer" id="gh-bani-raukhan">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="it-project-card reveal">
+            <div class="it-project-card__header">
+              <span class="it-project-card__icon">🌐</span>
+              <div class="it-project-card__meta">
+                <span class="it-project-card__lang lang--html">HTML</span>
+                <span class="it-project-card__year">2022 – Kini</span>
+              </div>
+            </div>
+            <h3 class="it-project-card__title">Portfolio Website</h3>
+            <p class="it-project-card__desc">
+              Website portfolio profesional pribadi — dibangun dengan HTML, CSS, dan JavaScript vanilla. Menampilkan pengalaman, sertifikasi, task force, dan aktivitas secara terstruktur.
+            </p>
+            <div class="it-project-card__tags">
+              <span class="it-project-card__tag">HTML/CSS</span>
+              <span class="it-project-card__tag">JavaScript</span>
+              <span class="it-project-card__tag">GitHub Pages</span>
+            </div>
+            <a href="https://github.com/cakgup/cakgup.github.io" class="it-project-card__link" target="_blank" rel="noreferrer" id="gh-portfolio">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              View on GitHub
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Government IT Projects -->
+        <div class="it-projects__category-label reveal" style="margin-top: 6rem;">🏛️ Proyek Pemerintah — Kementerian Keuangan</div>
+        <div class="it-projects__gov-grid">
+
+          <div class="gov-project-card reveal">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#0052CC,#00B4D8);"></div>
+            <span class="gov-project-card__icon">📊</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">MyIntress Application</h3>
+              <p class="gov-project-card__desc">Aplikasi manajemen internal DJPb — Wakil Koordinator CI/CD &amp; Koordinator Analisis Sistem Informasi. Mengelola pipeline DevOps, integrasi sistem, dan kualitas kode.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">CI/CD</span><span class="gov-project-card__tag">DevOps</span><span class="gov-project-card__tag">System Analysis</span>
+              </div>
+              <span class="gov-project-card__period">2025 – 2026</span>
+            </div>
+          </div>
+
+          <div class="gov-project-card reveal reveal-delay-1">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#7C3AED,#0052CC);"></div>
+            <span class="gov-project-card__icon">🔗</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">Integrasi OMSPAN Monitoring &amp; MONSAKTI</h3>
+              <p class="gov-project-card__desc">Koordinator Analisis Sistem Informasi untuk integrasi dua sistem monitoring keuangan pemerintah pusat — OMSPAN dan MONSAKTI — dalam ekosistem DJPb.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">System Integration</span><span class="gov-project-card__tag">API</span><span class="gov-project-card__tag">Monitoring</span>
+              </div>
+              <span class="gov-project-card__period">2024 – 2025</span>
+            </div>
+          </div>
+
+          <div class="gov-project-card reveal reveal-delay-2">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#00B4D8,#7C3AED);"></div>
+            <span class="gov-project-card__icon">📱</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">Digit Mobile Apps</h3>
+              <p class="gov-project-card__desc">Tim Penguji pengembangan aplikasi mobile Digit — aplikasi layanan digital DJPb untuk para pengguna layanan perbendaharaan negara berbasis smartphone.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">Mobile App</span><span class="gov-project-card__tag">QA Testing</span><span class="gov-project-card__tag">UAT</span>
+              </div>
+              <span class="gov-project-card__period">2026</span>
+            </div>
+          </div>
+
+          <div class="gov-project-card reveal reveal-delay-3">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#0052CC,#003A99);"></div>
+            <span class="gov-project-card__icon">🏗️</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">Blueprint TIK DJPb 2024–2030</h3>
+              <p class="gov-project-card__desc">Tim Kajian Cetak Biru (Blueprint) Teknologi Informasi dan Komunikasi DJPb 2024-2030 — merancang arsitektur IT jangka panjang untuk transformasi digital perbendaharaan negara.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">IT Architecture</span><span class="gov-project-card__tag">Strategic Planning</span><span class="gov-project-card__tag">Digital Transform</span>
+              </div>
+              <span class="gov-project-card__period">2022</span>
+            </div>
+          </div>
+
+          <div class="gov-project-card reveal">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#e11d48,#0052CC);"></div>
+            <span class="gov-project-card__icon">🛡️</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">ITSM — SNI ISO/IEC 20000:2018</h3>
+              <p class="gov-project-card__desc">Tim Taskforce Penerapan IT Service Management (ITSM) mengacu pada standar SNI ISO/IEC 20000:2018 di lingkungan Direktorat SITP, DJPb.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">ITSM</span><span class="gov-project-card__tag">ISO 20000</span><span class="gov-project-card__tag">IT Governance</span>
+              </div>
+              <span class="gov-project-card__period">2025</span>
+            </div>
+          </div>
+
+          <div class="gov-project-card reveal reveal-delay-1">
+            <div class="gov-project-card__accent" style="background: linear-gradient(135deg,#059669,#0052CC);"></div>
+            <span class="gov-project-card__icon">⚙️</span>
+            <div class="gov-project-card__body">
+              <h3 class="gov-project-card__title">SPBE Kemenkeu</h3>
+              <p class="gov-project-card__desc">Tim Koordinasi Sistem Pemerintahan Berbasis Elektronik (SPBE) Kementerian Keuangan — mendorong implementasi e-government yang terintegrasi dan aman di seluruh unit Kemenkeu.</p>
+              <div class="gov-project-card__tags">
+                <span class="gov-project-card__tag">e-Government</span><span class="gov-project-card__tag">SPBE</span><span class="gov-project-card__tag">Coordination</span>
+              </div>
+              <span class="gov-project-card__period">2023</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="it-projects__cta reveal">
+          <a href="https://github.com/cakgup" class="btn btn--theme" target="_blank" rel="noreferrer" id="view-github-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" style="vertical-align:middle;margin-right:8px;"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            Lihat Semua di GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= PROJECTS (Community & Social) ======= -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Community &amp; Activities</span>
+          <span class="heading-sec__sub">
+            Di sela kesibukan sebagai ASN, saya aktif berkontribusi dalam berbagai kegiatan sosial dan komunitas
+          </span>
+        </h2>
         <div class="projects__content">
-          <div class="projects__row">
+          <div class="projects__row reveal">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/baghasasi.jpeg"
-                alt="Software Screenshot"
+                alt="Yayasan Baghasasi"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Baghasasi Foundation</h3>
+              <span class="projects__row-tag">Sosial & Keagamaan</span>
+              <h3 class="projects__row-content-title">Yayasan Baghasasi</h3>
               <p class="projects__row-content-desc">
-                The Baghasasi Foundation, an acronym for BAKTI (Service), GUNA (Benefit), HARAPAN BANGSA (Hope for the Nation), and SINERGI (Synergy), is a foundation based in Bekasi City
+                Yayasan BAGHASASI — akronim dari BAKTI, GUNA, HARAPAN BANGSA, dan SINERGI — adalah yayasan sosial yang bergerak di bidang dakwah, pendidikan, dan pemberdayaan masyarakat di Kota Bekasi.
               </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >More</a
-              >
+              <a href="./project-1.html" class="btn btn--med btn--theme" id="project1-detail-btn">Lihat Detail</a>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal reveal-delay-1">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/relindo.jpeg"
-                alt="Software Screenshot"
+                alt="Relawan Indonesia"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
+              <span class="projects__row-tag">Kerelawanan</span>
               <h3 class="projects__row-content-title">Relawan Indonesia</h3>
               <p class="projects__row-content-desc">
-                Indonesian volunteers always participate to help in every disaster that occurs in Indonesia.
+                Relawan Indonesia aktif terlibat dalam berbagai operasi tanggap bencana di seluruh Indonesia — memberikan bantuan kemanusiaan, logistik, dan dukungan psikologis kepada korban bencana alam.
               </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >More</a
-              >
+              <a href="./project-2.html" class="btn btn--med btn--theme" id="project2-detail-btn">Lihat Detail</a>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row reveal reveal-delay-2">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/IMG.jpeg"
-                alt="Software Screenshot"
+                alt="IMG Adventure"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
+              <span class="projects__row-tag">Petualangan & Olahraga</span>
               <h3 class="projects__row-content-title">IMG Adventure</h3>
               <p class="projects__row-content-desc">
-                Indonesia Maju Gemilang Adventure, with tagline : Fit Body, Fit Mind, Fit Soul and Fit Organization.
+                Indonesia Maju Gemilang Adventure — komunitas petualang dengan tagline <em>Fit Body, Fit Mind, Fit Soul & Fit Organization</em>. Aktif dalam kegiatan pendakian gunung, arung jeram, dan olahraga air.
               </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >More</a
-              >
+              <a href="./project-3.html" class="btn btn--med btn--theme" id="project3-detail-btn">Lihat Detail</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- ======= CONTACT ======= -->
     <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Feel free to <strong>contact</strong> me here
+            Punya pertanyaan, kolaborasi, atau sekadar ingin berkenalan? Saya terbuka untuk berbagai kesempatan profesional maupun sosial.
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://formspree.io/f/gufroni@kemenkeu.go.id" method="POST" class="contact__form" id="contact-form">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
+              <label class="contact__form-label" for="name">Nama</label>
               <input
                 required
-                placeholder="Enter Your Name"
+                placeholder="Nama Anda"
                 type="text"
                 class="contact__form-input"
                 name="name"
@@ -294,91 +687,69 @@
               <label class="contact__form-label" for="email">Email</label>
               <input
                 required
-                placeholder="Enter Your Email"
-                type="text"
+                placeholder="email@anda.com"
+                type="email"
                 class="contact__form-input"
                 name="email"
                 id="email"
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
+              <label class="contact__form-label" for="message">Pesan</label>
               <textarea
                 required
                 cols="30"
-                rows="10"
+                rows="8"
                 class="contact__form-input"
-                placeholder="Enter Your Message"
+                placeholder="Tulis pesan Anda di sini..."
                 name="message"
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
+            <button type="submit" class="btn btn--theme contact__btn" id="submit-btn">
+              Kirim Pesan
             </button>
           </form>
         </div>
       </div>
     </section>
+
+    <!-- ======= FOOTER ======= -->
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">.: Cak Gup :.</h4>
+            <p class="main-footer__short-desc">
+              Pranata Komputer Ahli Muda — Cybersecurity Specialist & IT Governance Expert di Direktorat SITP, DJPb, Kementerian Keuangan RI
+            </p>
+          </div>
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/cakgup/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/cakgup/" aria-label="LinkedIn">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://cakgup.github.io/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="https://cakgup.github.io/" aria-label="GitHub">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://wa.me/6285717119171">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/wa-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="https://wa.me/6285717119171" aria-label="WhatsApp">
+                <img class="main-footer__icon" src="./assets/png/wa-ico.png" alt="WhatsApp" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@AlfafaID">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@AlfafaID" aria-label="YouTube">
+                <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="YouTube" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://instagram.com/alamanahkeu">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="https://instagram.com/alamanahkeu" aria-label="Instagram">
+                <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="Instagram" />
               </a>
             </div>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">.: Cak Gup :.</h4>
-            <p class="main-footer__short-desc">
-              IT Specialist at Directorate of Information Systems and Technology Treasury, DG Treasury, Ministry of Finance
-            </p>
-          </div>
         </div>
-
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2024. Modified by
-          <a rel="noreferrer" target="_blank" href="https://cakgup.github.io"
-            >.: Cak Gup :.</a
-          >
+          &copy; Copyright 2024. Mukhammad Gufron Ikhsan —
+          <a rel="noreferrer" target="_blank" href="https://cakgup.github.io">.: Cak Gup :.</a>
         </div>
       </div>
     </footer>
