@@ -104,7 +104,7 @@ const contactInfo = document.querySelector('.contact__form-info')
 
 const CONTACT_SCRIPT_URL =
   'https://script.google.com/macros/s/AKfycbxSjVxBLh1Fj2O7UM-YZsVKN_JvHgIFSh3VY_WsCymTRd9ZNSVEzj4eaaN3CLmgKSsu/exec'
-
+/* ini ada di emailnya baghasasi ya https://docs.google.com/spreadsheets/d/13j12tpJ6MVuqS48sz1TVoZD5A73KVfINgOlMujk67S0/edit?gid=0#gid=0 */
 function setContactInfo(message, type = 'info') {
   if (!contactInfo) return
 
