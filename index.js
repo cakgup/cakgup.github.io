@@ -5,23 +5,28 @@ const headerHamMenuBtn = document.querySelector('.header__main-ham-menu')
 const headerHamMenuCloseBtn = document.querySelector('.header__main-ham-menu-close')
 const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link')
 
-hamMenuBtn.addEventListener('click', () => {
-  if (smallMenu.classList.contains('header__sm-menu--active')) {
-    smallMenu.classList.remove('header__sm-menu--active')
-  } else {
-    smallMenu.classList.add('header__sm-menu--active')
-  }
-  if (headerHamMenuBtn.classList.contains('d-none')) {
-    headerHamMenuBtn.classList.remove('d-none')
-    headerHamMenuCloseBtn.classList.add('d-none')
-  } else {
-    headerHamMenuBtn.classList.add('d-none')
-    headerHamMenuCloseBtn.classList.remove('d-none')
-  }
-})
+if (hamMenuBtn && smallMenu && headerHamMenuBtn && headerHamMenuCloseBtn) {
+  hamMenuBtn.addEventListener('click', () => {
+    if (smallMenu.classList.contains('header__sm-menu--active')) {
+      smallMenu.classList.remove('header__sm-menu--active')
+    } else {
+      smallMenu.classList.add('header__sm-menu--active')
+    }
+
+    if (headerHamMenuBtn.classList.contains('d-none')) {
+      headerHamMenuBtn.classList.remove('d-none')
+      headerHamMenuCloseBtn.classList.add('d-none')
+    } else {
+      headerHamMenuBtn.classList.add('d-none')
+      headerHamMenuCloseBtn.classList.remove('d-none')
+    }
+  })
+}
 
 for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   headerSmallMenuLinks[i].addEventListener('click', () => {
+    if (!smallMenu || !headerHamMenuBtn || !headerHamMenuCloseBtn) return
+
     smallMenu.classList.remove('header__sm-menu--active')
     headerHamMenuBtn.classList.remove('d-none')
     headerHamMenuCloseBtn.classList.add('d-none')
@@ -30,13 +35,16 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 
 // ======= LOGO CLICK =======
 const headerLogoContainer = document.querySelector('.header__logo-container')
-headerLogoContainer.addEventListener('click', () => {
-  location.href = 'index.html'
-})
 
-// ======= ✅ FIX: TYPED.JS — animasi teks hero =======
+if (headerLogoContainer) {
+  headerLogoContainer.addEventListener('click', () => {
+    location.href = 'index.html'
+  })
+}
+
+// ======= TYPED.JS — animasi teks hero =======
 // Pastikan typed.js sudah diimport di <head> sebelum index.js dipanggil
-if (typeof Typed !== 'undefined') {
+if (typeof Typed !== 'undefined' && document.querySelector('#typed-role')) {
   new Typed('#typed-role', {
     strings: [
       'Pranata Komputer Ahli Muda',
@@ -54,26 +62,28 @@ if (typeof Typed !== 'undefined') {
   })
 }
 
-// ======= ✅ FIX: INTERSECTION OBSERVER — animasi reveal saat scroll =======
+// ======= INTERSECTION OBSERVER — animasi reveal saat scroll =======
 const revealElements = document.querySelectorAll('.reveal')
 
-const revealObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('reveal--active')
-        // Hentikan observasi setelah muncul (animasi hanya sekali)
-        revealObserver.unobserve(entry.target)
-      }
-    })
-  },
-  {
-    threshold: 0.15,
-    rootMargin: '0px 0px -50px 0px',
-  }
-)
+if ('IntersectionObserver' in window && revealElements.length > 0) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal--active')
+          // Hentikan observasi setelah muncul (animasi hanya sekali)
+          revealObserver.unobserve(entry.target)
+        }
+      })
+    },
+    {
+      threshold: 0.15,
+      rootMargin: '0px 0px -50px 0px',
+    }
+  )
 
-revealElements.forEach((el) => revealObserver.observe(el))
+  revealElements.forEach((el) => revealObserver.observe(el))
+}
 
 // ======= HEADER SCROLL EFFECT =======
 window.addEventListener('scroll', () => {
@@ -90,40 +100,102 @@ window.addEventListener('scroll', () => {
 // ======= CONTACT FORM SUBMISSION =======
 const contactForm = document.querySelector('.contact__form')
 const contactBtn = document.querySelector('.contact__btn')
+const contactInfo = document.querySelector('.contact__form-info')
 
-if (contactForm) {
+const CONTACT_SCRIPT_URL =
+  'https://script.google.com/macros/s/AKfycbw-3pJVVXV_lsQhec6vbpzKAm0fVPeRVyzU7nkZYTZDKV4PBhHcOQQXvE963QPInM1Y/exec'
+
+function setContactInfo(message, type = 'info') {
+  if (!contactInfo) return
+
+  contactInfo.textContent = message
+  contactInfo.classList.remove(
+    'contact__form-info--success',
+    'contact__form-info--error',
+    'contact__form-info--loading'
+  )
+
+  if (type === 'success') {
+    contactInfo.classList.add('contact__form-info--success')
+  } else if (type === 'error') {
+    contactInfo.classList.add('contact__form-info--error')
+  } else if (type === 'loading') {
+    contactInfo.classList.add('contact__form-info--loading')
+  }
+}
+
+function getCurrentDateTimeId() {
+  return new Date().toLocaleString('id-ID', {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+  })
+}
+
+if (contactForm && contactBtn) {
   contactForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    
-    // Change button text to indicate loading
-    const originalBtnText = contactBtn.textContent;
-    contactBtn.textContent = 'Sending...';
-    contactBtn.disabled = true;
+    e.preventDefault()
 
-    const formData = new FormData(contactForm);
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxfcj0KBMClEz4BQsjd9yPoJAOSQZ8TmCcLEEnjxmfRsb6TScp9j3g1kAKkscLZR4Fa/exec';
+    const nameInput = contactForm.querySelector('#name')
+    const emailInput = contactForm.querySelector('#email')
+    const messageInput = contactForm.querySelector('#message')
+
+    const name = nameInput ? nameInput.value.trim() : ''
+    const email = emailInput ? emailInput.value.trim() : ''
+    const message = messageInput ? messageInput.value.trim() : ''
+
+    if (!name || !email || !message) {
+      setContactInfo('Mohon lengkapi nama, email, dan pesan terlebih dahulu.', 'error')
+      return
+    }
+
+    if (emailInput && !emailInput.checkValidity()) {
+      setContactInfo('Format email belum valid.', 'error')
+      emailInput.focus()
+      return
+    }
+
+    const originalBtnText = contactBtn.textContent
+    contactBtn.textContent = 'Sending...'
+    contactBtn.disabled = true
+    setContactInfo('Mengirim pesan...', 'loading')
+
+    const payload = {
+      id: Date.now(),
+
+      // Field utama
+      name: name,
+      email: email,
+      message: message,
+
+      // Kompatibilitas dengan struktur komentar pada repo invitation
+      status: email,
+      date: getCurrentDateTimeId(),
+      color: '#25D366',
+
+      // Penanda agar data contact bisa dibedakan dari komentar/ucapan
+      type: 'contact',
+    }
 
     try {
-      const response = await fetch(scriptURL, {
+      // Menggunakan no-cors + text/plain agar kompatibel dengan Google Apps Script
+      // dan pola pengiriman pada comentarService.js.
+      await fetch(CONTACT_SCRIPT_URL, {
         method: 'POST',
-        body: formData
-      });
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8',
+        },
+        body: JSON.stringify(payload),
+      })
 
-      if (response.ok) {
-        alert('Thank you! Your message has been sent successfully.');
-        contactForm.reset();
-      } else {
-        alert('Failed to send message. Please try again.');
-      }
+      setContactInfo('Pesan berhasil dikirim. Terima kasih.', 'success')
+      contactForm.reset()
     } catch (error) {
-      console.error('Error!', error.message);
-      // Sometimes with no-cors it throws or fails to read response, but the submission succeeds.
-      alert('Your message was processed. Thank you!');
-      contactForm.reset();
+      console.error('Error!', error.message)
+      setContactInfo('Pesan gagal dikirim. Silakan coba kembali.', 'error')
     } finally {
-      // Restore button text and state
-      contactBtn.textContent = originalBtnText;
-      contactBtn.disabled = false;
+      contactBtn.textContent = originalBtnText
+      contactBtn.disabled = false
     }
-  });
-}
+  })
+}
