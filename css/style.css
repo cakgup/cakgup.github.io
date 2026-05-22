@@ -240,7 +240,10 @@ textarea { resize: none; }
    BUTTONS
    ============================================= */
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
   font-weight: 700;
   font-size: 1.45rem;
   text-transform: uppercase;
@@ -278,7 +281,7 @@ textarea { resize: none; }
   box-shadow: 0 0 25px rgba(255,202,26,0.45), 0 12px 35px rgba(255,202,26,0.2);
 }
 
-.btn--med { padding: 1.4rem 5rem; font-size: 1.5rem; }
+.btn--med { padding: 1.7rem 5.5rem; font-size: 1.7rem; }
 
 .btn--theme {
   background: linear-gradient(135deg, #1A6FD4 0%, #023E8A 100%);
