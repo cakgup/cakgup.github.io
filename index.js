@@ -103,7 +103,7 @@ const contactBtn = document.querySelector('.contact__btn')
 const contactInfo = document.querySelector('.contact__form-info')
 
 const CONTACT_SCRIPT_URL =
-  'https://script.google.com/macros/s/AKfycbw-3pJVVXV_lsQhec6vbpzKAm0fVPeRVyzU7nkZYTZDKV4PBhHcOQQXvE963QPInM1Y/exec'
+  'https://script.google.com/macros/s/AKfycbxSjVxBLh1Fj2O7UM-YZsVKN_JvHgIFSh3VY_WsCymTRd9ZNSVEzj4eaaN3CLmgKSsu/exec'
 
 function setContactInfo(message, type = 'info') {
   if (!contactInfo) return
