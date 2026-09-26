@@ -559,7 +559,7 @@ textarea { resize: none; }
 
 /* Hero Socials */
 .home-hero__socials {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
@@ -568,7 +568,7 @@ textarea { resize: none; }
   border: 1px solid rgba(255,255,255,0.1);
   border-left: none;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  z-index: 2;
+  z-index: 100;
 }
 @media only screen and (max-width: 56.25em) { .home-hero__socials { display: none; } }
 

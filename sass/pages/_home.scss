@@ -20,7 +20,9 @@
   }
 
   &__socials {
-    position: absolute;
+    position: fixed;
+    left: 0;
+    z-index: 100;
     top: 50%;
     border: 2px solid #eee;
     border-left: 2px solid #eee;
