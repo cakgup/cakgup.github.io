@@ -63,13 +63,14 @@
   },
   "certifications_and_training": {
     "cybersecurity_advanced": [
+      "Certified Penetration Tester (BSSN, 2026)",
       "Google Cybersecurity Professional Certificate (2025)",
-      "Sertifikasi Level 1 Security Operations Center (SOC) Analyst - BSSN (2025)",
-      "Pelatihan Incident Response Analyst - BSSN (2025)",
-      "Certified Ethical Hacker (CEH) - EC-Council (2022)",
-      "Certified Penetration Testing Professional - EC-Council (2021)",
+      "SOC Analyst Level I and II (BSSN, 2025)",
+      "Incident Response Analyst (BSSN, 2025)",
       "Pelatihan Junior Penetration Tester - BSSN (2024)",
-      "CyberOps Associate - Cisco & Kominfo (2024)"
+      "CyberOps Associate - Cisco & Kominfo (2024)",
+      "Certified Ethical Hacker (CEH) - EC-Council (2022)",
+      "Certified Penetration Testing Professional - EC-Council (2021)"
     ],
     "infrastructure_and_cloud": [
       "HPE Network Campus Access Associate (2024)",
@@ -78,10 +79,10 @@
       "Workshop Pengelolaan Keamanan Infrastruktur Jaringan - Itjen Kemenkeu (2019)"
     ],
     "it_governance_and_risk": [
+      "Bimtek Verifikasi Infrastruktur Informasi Vital Sektor Pemerintahan - BSSN (2025)",
       "IT Service Management (ITSM) - Narada Code (2023)",
       "Sistem Manajemen Keamanan Informasi SNI ISO/IEC 27001:2013 - Kominfo (2022)",
       "Auditor Internal ISO/IEC 27001:2013 - Pusintek Kemenkeu (2022)",
-      "Bimtek Verifikasi Infrastruktur Informasi Vital Sektor Pemerintahan - BSSN (2025)",
       "Bimbingan Teknis Indeks Keamanan Informasi (Indeks KAMI) - BSSN (2020)"
     ],
     "data_science_and_devops": [
