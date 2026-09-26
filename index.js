@@ -144,12 +144,12 @@ if (contactForm && contactBtn) {
     const message = messageInput ? messageInput.value.trim() : ''
 
     if (!name || !email || !message) {
-      setContactInfo('Mohon lengkapi nama, email, dan pesan terlebih dahulu.', 'error')
+      setContactInfo('Please enter your name, email address, and message.', 'error')
       return
     }
 
     if (emailInput && !emailInput.checkValidity()) {
-      setContactInfo('Format email belum valid.', 'error')
+      setContactInfo('Please enter a valid email address.', 'error')
       emailInput.focus()
       return
     }
@@ -157,7 +157,7 @@ if (contactForm && contactBtn) {
     const originalBtnText = contactBtn.textContent
     contactBtn.textContent = 'Sending...'
     contactBtn.disabled = true
-    setContactInfo('Mengirim pesan...', 'loading')
+    setContactInfo('Sending your message...', 'loading')
 
     const payload = {
       id: Date.now(),
@@ -188,11 +188,11 @@ if (contactForm && contactBtn) {
         body: JSON.stringify(payload),
       })
 
-      setContactInfo('Pesan berhasil dikirim. Terima kasih.', 'success')
+      setContactInfo('Your message has been submitted. Thank you.', 'success')
       contactForm.reset()
     } catch (error) {
       console.error('Error!', error.message)
-      setContactInfo('Pesan gagal dikirim. Silakan coba kembali.', 'error')
+      setContactInfo('Your message could not be sent. Please try again.', 'error')
     } finally {
       contactBtn.textContent = originalBtnText
       contactBtn.disabled = false

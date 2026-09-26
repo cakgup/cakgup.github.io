@@ -198,6 +198,29 @@ Gunakan file ini untuk mengubah teks, heading, section, tombol, dan struktur hal
 
 ### Ubah interaksi
 
+#### Background dan mouse cyber
+
+Efek dekoratif di seluruh halaman utama dan ketiga halaman proyek menggunakan
+`cyber-effects.js` dan `css/cyber-effects.css`, tanpa library tambahan.
+Script menggambar jaringan node, paket data, sorotan mouse, dan gelombang saat
+klik. Radar ring dengan denyut lembut dan spotlight Royal Blue mengikuti mouse.
+Ring membesar dan berubah menjadi emas saat diarahkan ke tautan/tombol;
+kursor bawaan tetap tersedia dan ring disembunyikan saat mengisi form.
+
+Ubah objek `config` di awal `cyber-effects.js` untuk menyesuaikan:
+
+- `maxNodes` / `mobileNodes`: batas jumlah node desktop / ponsel;
+- `spacing`: luas area per node (lebih besar berarti lebih renggang);
+- `linkDistance`: jarak maksimum antarnode yang terhubung, dalam piksel;
+- `speed`: kecepatan gerak node.
+
+Animasi aktif otomatis tanpa tombol kontrol atau pilihan tersimpan. Preferensi sistem
+`prefers-reduced-motion` menonaktifkan gerakan dan efek mouse. Animasi berhenti
+ketika tab tersembunyi. Canvas mengikuti viewport sehingga background
+tetap terlihat saat halaman digulir ke atas maupun ke bawah.
+Pada perangkat sentuh, reticle tidak ditampilkan. CSS efek dimuat terpisah
+setelah stylesheet utama agar pengaturan animasi mudah dirawat.
+
 Edit file:
 
 ```text
